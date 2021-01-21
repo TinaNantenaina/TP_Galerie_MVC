@@ -97,4 +97,5 @@ public class GalerieController {
         redirectInfo.addFlashAttribute("message", message);
         return "redirect:show"; // on se redirige vers l'affichage de la liste
     }
+    
 }
